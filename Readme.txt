@@ -26,3 +26,8 @@ It means that changes done or to be done in those files are not managed by git y
 
 10. `git restore <file>` -> it removes all the file changes from the staging area to be committed.This can be useful, if we did some dirty piece of code and now no more want it. instead of deleting every change line by line, we can restore it or you can say restore last clean version of the file.
 
+
+11. `git restore --staged <file>`:- it removes file from changes from stagin area to the working area.
+this only work if changes are on your staging area
+
+
