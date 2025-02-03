@@ -33,3 +33,8 @@ this only work if changes are on your staging area
 
 12. Difference between git rm and git restore:-
 ans: If you want to move the whole file back to the untracked state, then we do git rm, otherwise if we just want the changes to be moved in working area or staging area then we git restore.
+
+
+13. git diff:- using git dif command we can check what changes has been done in file
+
+14. If we want to avoid opening a text/editor like vim/nano to add commit message we an use this following command
