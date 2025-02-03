@@ -31,3 +31,5 @@ It means that changes done or to be done in those files are not managed by git y
 this only work if changes are on your staging area
 
 
+12. Difference between git rm and git restore:-
+ans: If you want to move the whole file back to the untracked state, then we do git rm, otherwise if we just want the changes to be moved in working area or staging area then we git restore.
