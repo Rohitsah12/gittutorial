@@ -37,4 +37,16 @@ ans: If you want to move the whole file back to the untracked state, then we do 
 
 13. git diff:- using git dif command we can check what changes has been done in file
 
-14. If we want to avoid opening a text/editor like vim/nano to add commit message we an use this following command
+14.`Git commit -m <your commit message>` If we want to avoid opening a text/editor like vim/nano to add commit message we an use this following command
+
+15. `Git remote`:-> list dow all the connection names
+
+16. Remote connection:-> It helps you to link two git repositories for uploading and downloading changes from each otherwise
+
+17. git remote add <name of remote> <link of the remote>:this command helps us to add a new link to the remote repo and give a name to it
+
+18. `git remote rm <name of remote`:-> this command deletes a remote connection
+
+19. `git remote rename <oldname> <newName>`: this command remains the remaote connection
+
+Note: The name of the remote connection is always used to establish communication between the repos
